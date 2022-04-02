@@ -1,0 +1,19 @@
+{
+  "name": "tiktok-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "tiktok-livestream-chat-connector": "^0.9.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
